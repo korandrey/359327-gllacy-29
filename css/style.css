@@ -351,17 +351,6 @@ button:active {
     text-align: center;
 }
 
-.footer-contacts-list a {
-    background: rgba(255, 255, 255, 0.8);
-}
-
-.footer-contacts-list a:hover,
-.footer-contacts-list a:focus {
-    background-color: var(--whiten);
-    box-shadow: var(--shadow-gray);  
-    color: var(--black);
-}
-
 .footer-contacts-list-item {
     width: 32px;
     height: 32px;
@@ -557,3 +546,14 @@ button:active {
 .main-header-directory-list, .hits-list, .store-description-list, .footer-contacts-list, .footer-info-list, .catalog-list, .catalog-numbering-active, .catalog-modal-basket {
     list-style: none;
 }
+
+/*--------------------------------------------------------------OTHER--------------------------------------------------------------*/
+
+
+.circle-product {
+    width: 267px;
+    height: 267px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--brown);
+  }
