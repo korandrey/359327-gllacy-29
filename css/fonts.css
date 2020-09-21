@@ -3,11 +3,22 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local('Roboto'), local('Roboto-Regular'),
-         url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
-  }
+    src: url('../fonts/roboto.woff');
+    src: url('../fonts/roboto.woff2');
+  } 
+
+  @font-face {
+    font-family: 'Robotobold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/robotobold.woff');
+    src: url('../fonts/robotobold.woff2');
+  } 
+
+  @font-face {
+    font-family: 'Robotomedium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/robotomedium.woff');
+    src: url('../fonts/robotomedium.woff2');
+  } 
