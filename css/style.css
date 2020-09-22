@@ -61,6 +61,18 @@ img {
     font-style: normal;
 }
 
+.main-navigation-wrapper {
+    display: grid;
+    grid-template-columns:min-content 1fr max-content;
+    margin: 0 auto;
+    padding: 0 27px;
+    width: 1146px;
+}
+
+.main-header-bar {
+    background-color: var(--brown);
+}
+
 .site-navigation a {
     color: var(--whiten); 
 }
@@ -161,6 +173,26 @@ img {
 /*--------------------------------------------------------------MAIN--------------------------------------------------------------*/
 
 
+.container {
+    width: 1146px;
+    margin: 0 auto;
+    padding: 0 27px;
+}
+
+.two-ice-creams-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+.two-ice-creams-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+}
+
 .two-ice-creams h2 {
     font-size: 60px;
     text-align: center;
@@ -195,6 +227,12 @@ button:active {
     box-shadow: var(--shadow-red);
 }
 
+.offers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 26px;
+}
+
 .product-1 {
     background-color: var(--crimson);
 }
@@ -224,12 +262,23 @@ button:active {
     line-height: 24px;
 }
 
+.hits {
+    display: grid;
+}
+
 .hits-item:hover,
 .hits-item:focus {
     background: var(--whiten);
     opacity: 0.2;
     box-shadow: var(--shadow-black);
     border-radius: 4px;
+}
+
+.hits-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
 }
 
 .hit-item-price {
@@ -259,6 +308,14 @@ button:active {
 
 .store-description {
     background-color: var(--cream);
+    display: grid;
+    padding: 20px;
+}
+
+.store-description-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 .store-description h3 {
@@ -274,6 +331,13 @@ button:active {
     font-size: 16px;
     line-height: 22px;
     color: var(--black);
+}
+
+.blog-and-email {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 26px;
+    padding: 27px;
 }
 
 .blog {
@@ -311,9 +375,21 @@ button:active {
     line-height: 24px;   
 }
 
+.map-and-address {
+    display: grid;
+}
+
+.map {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: purple;
+}
+
 .address {
     background-color: var(--whiten);
     color: var(--black);
+    display:grid;
+    grid-template-columns: max-content;
 }
 
 .address-info {
@@ -346,6 +422,10 @@ button:active {
     line-height: 24px;
 }
 /*--------------------------------------------------------------FOOTER--------------------------------------------------------------*/
+
+.main-footer {
+    display: grid; 
+}
 
 .footer-contacts-list {
     text-align: center;
@@ -387,6 +467,18 @@ button:active {
 
 
 /*--------------------------------------------------------------FOOTER--------------------------------------------------------------*/
+
+.main-footer-wrapper {
+    display: grid;
+    grid-template-columns:min-content 1fr max-content;
+    margin: 0 auto;
+    padding: 0 27px;
+    width: 1146px;
+}
+
+.main-footer-bar {
+    background-color: var(--brown);
+}
 
 .modal {
     box-shadow: var(--shadow-less-black);
@@ -558,4 +650,28 @@ button:active {
     border-radius: 50%;
     overflow: hidden;
     background: var(--brown);
+  }
+
+
+  /*--------------------------------------------------------------GRIDS--------------------------------------------------------------*/
+
+
+  .page {
+      width: 100%;
+  }
+
+  .page-body {
+      min-width: 100%;
+      display: grid;
+      grid-template-rows: min-content 1fr min-content;
+      align-content: center;
+  }
+
+  .main-header {
+      display: grid;
+  }
+
+  .main-logo {
+      width: 154px;
+      height: 64px;
   }
