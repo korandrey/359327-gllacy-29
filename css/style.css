@@ -25,6 +25,7 @@
     --shadow-red: inset 0px 2px 2px #942718;
     --shadow-burgundy :0px 2px 2px rgba(172, 16, 0, 0.64);
     --whine-nav-site: #EDEDED;
+    --map: purple;
 }   
 
 body {
@@ -64,9 +65,12 @@ img {
 .main-navigation-wrapper {
     display: grid;
     grid-template-columns:min-content 1fr max-content;
+}
+
+.container, .main-navigation-wrapper, .main-footer-wrapper  {
+    width: 1146px;
     margin: 0 auto;
     padding: 0 27px;
-    width: 1146px;
 }
 
 .main-header-bar {
@@ -172,12 +176,6 @@ img {
 
 /*--------------------------------------------------------------MAIN--------------------------------------------------------------*/
 
-
-.container {
-    width: 1146px;
-    margin: 0 auto;
-    padding: 0 27px;
-}
 
 .two-ice-creams-img {
     display: grid;
@@ -382,7 +380,7 @@ button:active {
 .map {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: purple;
+    background-color: var(--map);
 }
 
 .address {
@@ -471,9 +469,6 @@ button:active {
 .main-footer-wrapper {
     display: grid;
     grid-template-columns:min-content 1fr max-content;
-    margin: 0 auto;
-    padding: 0 27px;
-    width: 1146px;
 }
 
 .main-footer-bar {
