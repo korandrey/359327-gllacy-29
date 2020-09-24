@@ -67,7 +67,7 @@ img {
     grid-template-columns:min-content 1fr max-content;
 }
 
-.container, .main-navigation-wrapper, .main-footer-wrapper  {
+.container {
     width: 1146px;
     margin: 0 auto;
     padding: 0 27px;
@@ -514,6 +514,16 @@ button:active {
 /*--------------------------------------------------------------CATALOG--------------------------------------------------------------*/
 /*--------------------------------------------------------------MAIN--------------------------------------------------------------*/
 
+.catalog {
+    display: grid;
+}
+
+.catalog-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 26px;
+}
+
 .catalog-nav a {
     color: var(--whiten);
     text-decoration:underline;
@@ -531,6 +541,7 @@ button:active {
     font-weight: bold;
     font-size: 35px;
     line-height: 41px;
+    display: grid;
 }
 
 .catalog-button-apply {
