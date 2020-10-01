@@ -60,6 +60,7 @@ img {
     color:var(--whiten) ;  
     font-weight: bold;
     font-style: normal;
+    align-items: center;
 }
 
 .main-navigation-wrapper {
@@ -76,6 +77,7 @@ img {
 .main-header-bar {
     background-color: var(--brown);
 }
+
 
 .site-navigation a {
     color: var(--whiten); 
@@ -421,9 +423,6 @@ button:active {
 }
 /*--------------------------------------------------------------FOOTER--------------------------------------------------------------*/
 
-.main-footer {
-    display: grid; 
-}
 
 .footer-contacts-list {
     text-align: center;
@@ -467,8 +466,10 @@ button:active {
 /*--------------------------------------------------------------FOOTER--------------------------------------------------------------*/
 
 .main-footer-wrapper {
-    display: grid;
-    grid-template-columns:min-content 1fr max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-footer-bar {
